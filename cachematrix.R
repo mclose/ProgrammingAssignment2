@@ -5,7 +5,7 @@
 
 ## makeCacheMatrix takes a square matrix as a parameter and returns
 ## a list of functions that set the marix value, get the matrix value,
-## set the inverse value, and get the inverse value
+## set the inverse value, and get the inverse value.
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
